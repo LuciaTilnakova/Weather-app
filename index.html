@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework2</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card outline" style="width: 48rem">
+        <div class="card-body">
+          <div class="card-header">
+            <form id="enter-city">
+              <div class="row">
+                <div class="col-6">
+                  <input
+                    id="enter-city-input"
+                    type="text"
+                    placeholder="Enter city"
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-6 button-holder">
+                  <input
+                    type="submit"
+                    class="btn btn-primary btn-space"
+                    value="Search"
+                  />
+                  <input
+                    id="currentbtn"
+                    type="button"
+                    class="btn btn-success btn-space"
+                    value="Current"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="row cityrow">
+            <div class="col-4">
+              <ul class="city-list">
+                <li class="city">London</li>
+                <li>
+                  <span class="time"> Sunday 20:12</span>
+                </li>
+                <li class="date">25 April 2021</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <h1>
+                <span class="temperature">18</span>
+                <span class="degrees">°C<a href="#"></a> </span>
+              </h1>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li id="weather">sunny</li>
+                <li id="humidity">humidity: 70%</li>
+                <li id="wind">wind: 5km/h</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+
+          <div class="row days">
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">MON <br />🌞20°C</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">TUE <br />⛅18°C</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">WED<br />🌧15°C</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">THU<br />🌧15°C</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">FRI <br />⛅19°C</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <div class="card-body">SAT <br />🌞22°C</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/821af1b3d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

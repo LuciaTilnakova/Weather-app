@@ -58,10 +58,6 @@ form {
   color: #306beb;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   line-height: 40px;
   list-style: none;
@@ -74,4 +70,13 @@ ul {
   padding: 10px;
   text-align: center;
   line-height: 40px;
+}
+
+.source-code {
+  position: relative;
+  left: 390px;
+}
+
+#source-code-link {
+  text-decoration: none;
 }

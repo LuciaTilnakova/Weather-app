@@ -1,0 +1,77 @@
+.container {
+  font-family: Noto Sans SC, inter, Arial, Helvetica, sans-serif;
+}
+
+.card-body {
+  background: linear-gradient(#defbfc, #fcfcfc);
+  border: solid 1px rgb(135, 237, 250);
+}
+
+.outline {
+  margin: 0 auto;
+}
+
+.button-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-space {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+form {
+  padding: 15px;
+}
+
+.cityrow {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.city {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.city-list {
+  text-align: center;
+}
+
+.time {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.temperature {
+  font-weight: 800;
+  font-size: 65px;
+}
+
+.degrees {
+  font-size: 1.6rem;
+  position: relative;
+  top: -30px;
+  color: #306beb;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  line-height: 40px;
+  list-style: none;
+  text-align: left;
+  color: rgb(100, 98, 98);
+}
+
+.days {
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+}
